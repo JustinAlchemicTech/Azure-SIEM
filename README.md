@@ -23,12 +23,12 @@ This project involved setting up Azure Sentinel, a scalable, cloud-native, secur
 
 <h2> Geolocation Lookup with PowerShell: </h2> To gain more insights about the attackers, I used a custom PowerShell script. This script fetched the geolocation information of the attackers, providing me with details about their approximate physical location.
 
-<img src="https://i.imgur.com/Kysr2zD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BTC3EV4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 <h2> Visualizing Attack Data: </h2> Finally, I plotted the attackers' geolocation data on the Azure Sentinel Map. This visualization allowed me to see the global distribution of the attacks, which offered a more tangible understanding of the threats I faced.
 
-<img src="https://i.imgur.com/Kysr2zD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/efUQcJd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 Please note that this project was intended for educational and research purposes. Always ensure you're in compliance with all relevant laws and regulations when setting up and using a honeypot.

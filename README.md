@@ -3,30 +3,36 @@
 This project involved setting up Azure Sentinel, a scalable, cloud-native, security information event management (SIEM) and security orchestration automated response (SOAR) solution. I connected Azure Sentinel to a live virtual machine that acted as a honeypot, which enabled me to observe real-time attacks from around the globe.
 
 <h1> Project Outline: </h1>
+
 <img src="https://i.imgur.com/RNjbBTD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 <h2> Azure Sentinel Setup: </h2>  I began by setting up Azure Sentinel, configuring it to collect security data from all users, devices, applications, and infrastructure in the cloud.
 
-<img src="https://i.imgur.com/Kysr2zD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CQRCzBQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-<h2> Honeypot Configuration: </h2> I then established a live virtual machine to act as a honeypot. This decoy system was intended to lure cyber attackers, allowing me to study their activities without endangering my actual infrastructure.
+<h2> Honeypot Configuration: </h2> 
 
-<img src="https://i.imgur.com/Kysr2zD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+I then established a live virtual machine to act as a honeypot. This decoy system was intended to lure cyber attackers, allowing me to study their activities without endangering my actual infrastructure.
+
+<img src="https://i.imgur.com/QUFiP25.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-<h2> Observing Live Attacks: </h2> With the honeypot in place, I can monitor real-time attacks. In this project, I focused on Remote Desktop Protocol (RDP) brute force attacks, a common method used by attackers attempting to gain unauthorized access to systems.
+<h2> Observing Live Attacks: </h2>
 
-<img src="https://i.imgur.com/Kysr2zD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+With the honeypot in place, I can monitor real-time attacks. In this project, I focused on Remote Desktop Protocol (RDP) brute force attacks, a common method used by attackers attempting to gain unauthorized access to systems.
 
-<h2> Geolocation Lookup with PowerShell: </h2> To gain more insights about the attackers, I used a custom PowerShell script. This script fetched the geolocation information of the attackers, providing me with details about their approximate physical location.
+<h2> Geolocation Lookup with PowerShell: </h2> 
+
+To gain more insights about the attackers, I used a custom PowerShell script. This script fetched the geolocation information of the attackers, providing me with details about their approximate physical location.
 
 <img src="https://i.imgur.com/BTC3EV4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
-<h2> Visualizing Attack Data: </h2> Finally, I plotted the attackers' geolocation data on the Azure Sentinel Map. This visualization allowed me to see the global distribution of the attacks, which offered a more tangible understanding of the threats I faced.
+<h2> Visualizing Attack Data: </h2> 
+
+Finally, I plotted the attackers' geolocation data on the Azure Sentinel Map. This visualization allowed me to see the global distribution of the attacks, which offered a more tangible understanding of the threats I faced.
 
 <img src="https://i.imgur.com/efUQcJd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
